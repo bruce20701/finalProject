@@ -18,18 +18,19 @@ locationName = input("請輸入欲查詢的縣市名稱:")
 
 elementChineseName=[
     '天氣現象',
-    '最高溫度',
+    '降雨機率',
     '最低溫度',
     '舒適度',
-    '降雨機率'
+    '最高溫度'
+    
 ]
 
 elementUnit=[
     '',
-    '°C',
+    '%',
     '°C',
     '',
-    '%'
+    '°C'
 ]
     
 url = "https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-C0032-001"
